@@ -60,4 +60,6 @@ du service en question (par exemple pour Wordpress on a besoin d'un fichier .php
 qu'il sera stocké avant d'être déplacé au bon endroit.) Il y a également un dossier tools qui contiendra les fichiers
 de code bash lorsque c'est nécessaire.
 
-**MAKEFILE**
+---- MAKEFILE ----
+Le Makefile est relativement simple. La règle all est simplement composé de la commande
+docker-compose -f ./srcs/docker-compose.yml up -d --remove-orphans
