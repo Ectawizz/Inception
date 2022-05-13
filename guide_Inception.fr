@@ -53,4 +53,8 @@ services dans trois dossiers différents, ainsi que le Makefile à la racine per
 entrer dans toute l'arborescence.
 
 - Que dire sur cette arborescence ?
-Pour chaque service (docker) un dossier est présent dans l'arborescence. Chacun de ces dossiers est composé d'un Dockerfile, c'est la base de tout docker. On reviendra plus en d
+Pour chaque service (docker) un dossier est présent dans l'arborescence. Chacun de ces dossiers est composé d'un 
+Dockerfile, c'est la base de tout docker. On reviendra plus en détails sur comment se compose un Dockerfile plus tard.
+Il y a également la présence de deux dossiers, un dossier conf qui contiendra l'ensemble des fichiers de configuration
+du service en question (par exemple pour Wordpress on a besoin d'un fichier .php pour son bon fonctionnement, c'est ici
+qu'il sera stocké avant d'être déplacé au bon endroit.)
