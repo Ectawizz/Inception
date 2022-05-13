@@ -89,6 +89,11 @@ fichier .env dans chaque dossier conf de chaque service (docker) pour pouvoir en
 fichier bash (On reviendra dessus plus tard).
 
 ---- DOCKER-COMPOSE.YML ----
+Le fichier de docker-compose.yml est tout l'intérêt de ce projet. Il fut un temps où un projet nommé ft_service
+existait, et où l'on découvrait les Dockerfile. Maintenant on découvre les Dockerfile et le docker-compose.yml en
+même temps pour notre plus grand plaisir. Ou pas. Le docker-compose.yml va se diviser en 3 parties. Une partie pour
+les services/images, une partie pour les volumes, et une partie pour le network.
+
 
 ---- MARIADB ----
 
