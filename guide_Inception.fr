@@ -51,3 +51,6 @@ Comme ceci:
 On vous demandera pendant la soutenance l'intérêt de cette arborescence, qui est évidemment la separation des trois 
 services dans trois dossiers différents, ainsi que le Makefile à la racine permettant juste de make, et de clean sans
 entrer dans toute l'arborescence.
+
+- Que dire sur cette arborescence ?
+Pour chaque service (docker) un dossier est présent dans l'arborescence. Chacun de ces dossiers est composé d'un Dockerfile, c'est la base de tout docker. On reviendra plus en d
