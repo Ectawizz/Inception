@@ -14,10 +14,10 @@ Un docker-compose est tout simplement un gestionnaire de Docker. Il va orchestre
 - Comment s'organise l'arborescence de ce projet ?
 Comme ceci:
 
->*├─ Makefile
-└─ srcs
-   ├─ .env
-   ├─ docker-compose.yml
+>*├─ Makefile  
+└─ srcs  
+   ├─ .env  
+   ├─ docker-compose.yml   
    └─ requirement
       └─ mariadb
          ├─ Dockerfile
