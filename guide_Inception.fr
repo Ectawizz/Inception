@@ -61,7 +61,7 @@ qu'il sera stocké avant d'être déplacé au bon endroit.) Il y a également un
 de code bash lorsque c'est nécessaire.
 
 ---- AVANT DE COMMENCER ----
-il vous faudra faire l'intégralité de ce projet sur VM, évidemment on a le droit à une interface graphique. J'étais 
+Il vous faudra faire l'intégralité de ce projet sur VM, évidemment on a le droit à une interface graphique. J'étais 
 personnellement sur la dernière version de Ubuntu et tout s'est bien passé.
 
 ---- MAKEFILE ----
