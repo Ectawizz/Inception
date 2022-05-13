@@ -13,8 +13,8 @@ Un docker-compose est tout simplement un gestionnaire de Docker. Il va orchestre
 
 - Comment s'organise l'arborescence de ce projet ?
 Comme ceci:
-<p>
-├─ Makefile
+
+>*├─ Makefile
 └─ srcs
    ├─ .env
    ├─ docker-compose.yml
@@ -36,8 +36,8 @@ Comme ceci:
          └─ conf
             └─ ...
          └─ tools
-            └─ ...
-</p>
+            └─ ...*
+
 On vous demandera pendant la soutenance l'intérêt de cette arborescence, qui est évidemment la separation des trois services dans trois dossiers différents, ainsi que le Makefile à la racine permettant juste de make, et de clean sans entrer dans toute l'arborescence.
 
 - Que dire sur cette arborescence ?
