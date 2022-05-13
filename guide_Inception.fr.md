@@ -18,25 +18,25 @@ Comme ceci:
 └─ srcs  
    ├─ .env  
    ├─ docker-compose.yml   
-   └─ requirement
-      └─ mariadb
-         ├─ Dockerfile
-         └─ conf
-            └─ ...
-         └─ tools
-            └─ ...
-      └─ nginx
-         ├─ Dockerfile
-         └─ conf
-            └─ ...
-         └─ tools
-            └─ ...
-      └─ wordpress
-         ├─ Dockerfile
-         └─ conf
-            └─ ...
-         └─ tools
-            └─ ...*
+   └─ requirement 
+      └─ mariadb  
+         ├─ Dockerfile  
+         └─ conf  
+            └─ ...   
+         └─ tools 
+            └─ ...   
+      └─ nginx 
+         ├─ Dockerfile  
+         └─ conf  
+            └─ ...   
+         └─ tools 
+            └─ ...   
+      └─ wordpress   
+         ├─ Dockerfile  
+         └─ conf  
+            └─ ...   
+         └─ tools 
+            └─ ...*  
 
 On vous demandera pendant la soutenance l'intérêt de cette arborescence, qui est évidemment la separation des trois services dans trois dossiers différents, ainsi que le Makefile à la racine permettant juste de make, et de clean sans entrer dans toute l'arborescence.
 
