@@ -78,4 +78,16 @@ Le fclean a pour but de supprimer en plus les deux volumes, c'est à dire l'ense
 On rajoute en plus au fclean cette commande qui est le nettoyage le plus puissant des docker
 docker system prune --force --all
 Le seul point sur lequel il faut faire très attention, c'est que la règle re doit appeller clean et pas fclean. En
-effet si on appelle fclean, les deux volumes seront supprimés
+effet si on appelle fclean, les deux volumes seront supprimés et donc on ne pourra pas conserver les données comme
+les commentaires ajoutées à la page wordpress.
+
+---- .ENV ----
+Le fichier .env va tout simplement contenir vos variables d'environnement. Pour des questions de sécurit
+
+---- DOCKER-COMPOSE.YML ----
+
+---- MARIADB ----
+
+---- WORDPRESS ----
+
+---- NGINX ----
