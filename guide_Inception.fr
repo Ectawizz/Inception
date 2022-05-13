@@ -82,7 +82,11 @@ effet si on appelle fclean, les deux volumes seront supprimés et donc on ne pou
 les commentaires ajoutées à la page wordpress.
 
 ---- .ENV ----
-Le fichier .env va tout simplement contenir vos variables d'environnement. Pour des questions de sécurit
+Le fichier .env va tout simplement contenir vos variables d'environnement. Pour des questions de sécurités aucun mot de
+passe ne doit être écrit en dur directement dans les fichiers, le seul endroit où ils sont écrit est donc dans le
+fichier .env. N'ayant pas réussi à faire fonctionner les arguments avec le docker-compose, lors du make je copie le
+fichier .env dans chaque dossier conf de chaque service (docker) pour pouvoir ensuite exploiter les variables dans les
+fichier bash (On reviendra dessus plus tard).
 
 ---- DOCKER-COMPOSE.YML ----
 
