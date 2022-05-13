@@ -1,15 +1,25 @@
 Bienvenue dans le guide pour bien débuter un Inception.
 
-Ce guide a pour but de rassembler le maximum d'informations sur ce projet pour en avoir une vision la plus globale possible. La moindre précision à apporter est le bienvenue, mes maigres recherches ne sont pas évidemment pas suffisantes (surtout pour ceux voulant faire les bonus).
+Ce guide a pour but de rassembler le maximum d'informations sur ce projet pour en avoir une vision la plus globale
+possible. La moindre précision à apporter est le bienvenue, mes maigres recherches ne sont pas évidemment pas
+suffisantes (surtout pour ceux voulant faire les bonus).
 
 - Pour commencer qu'est ce qu'un docker ?
-Un docker est un outil de conteneurisation, il permet de créer un processus prennant le rôle d'une machine virtuelle bien plus légère et plus modulable.
+Un docker est un outil de conteneurisation, il permet de créer un processus prennant le rôle d'une machine
+virtuelle bien plus légère et plus modulable.
 
 - Quel est l'utilité d'un docker ? Pourquoi ne pas se servir d'une machine virtuelle classique ?
-Chaque docker va avoir son propre système d'exploitation. Et va prendre la forme d'un processus. Il ne nécessite donc pas l'installation lourde d'une VM séparant les ressources de la machine, tandis qu'ici un docker va simplement les exploiter comme un programme (ou presque).
+Chaque docker va avoir son propre système d'exploitation. Et va prendre la forme d'un processus. Il ne nécessite
+donc pas l'installation lourde d'une VM séparant les ressources de la machine, tandis qu'ici un docker va
+simplement les exploiter comme un programme (ou presque).
 
 - Qu'est ce qu'un docker-compose ?
-Un docker-compose est tout simplement un gestionnaire de Docker. Il va orchestrer et coordonner chaque docker. Ici on nous demande de faire 3 docker, le docker-compose sera donc divisé en trois partie pour chaquun des 3 docker. Docker-compose permet également la mise en place d'un network, pour faire communiquer les docker entre eux de façon sécurisé. Ainsi que la mise en place de volumes, qui sont des espaces de stockage externe aux docker, permettant de sauvegarder des informations même lorsque l'on ferme ces docker (On est ici face à des processus, donc les données ne sont pas sauvegardés lorsque l'on ferme un docker, d'ou l'utilite des volumes).
+Un docker-compose est tout simplement un gestionnaire de Docker. Il va orchestrer et coordonner chaque docker.
+Ici on nous demande de faire 3 docker, le docker-compose sera donc divisé en trois partie pour chacun des 3 docker. 
+Docker-compose permet également la mise en place d'un network, pour faire communiquer les docker entre eux de façon 
+sécurisé. Ainsi que la mise en place de volumes, qui sont des espaces de stockage externe aux docker, permettant de 
+sauvegarder des informations même lorsque l'on ferme ces docker (On est ici face à des processus, donc les données ne
+sont pas sauvegardés lorsque l'on ferme un docker, d'ou l'utilite des volumes).
 
 - Comment s'organise l'arborescence de ce projet ?
 Comme ceci:
@@ -38,4 +48,6 @@ Comme ceci:
          └─ tools
             └─ ...
 
-On vous demandera pendant la soutenance l'intérêt de cette arborescence, qui est évidemment la separation des trois services dans trois dossiers différents, ainsi que le Makefile à la racine permettant juste de make, et de clean sans entrer dans toute l'arborescence.
+On vous demandera pendant la soutenance l'intérêt de cette arborescence, qui est évidemment la separation des trois 
+services dans trois dossiers différents, ainsi que le Makefile à la racine permettant juste de make, et de clean sans
+entrer dans toute l'arborescence.
